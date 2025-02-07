@@ -67,7 +67,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist: OrderedSkipList<i64> = OrderedSkipList::new();
     /// ```
@@ -100,7 +100,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::with_capacity(100);
     /// skiplist.extend(0..100);
@@ -144,7 +144,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     /// use std::cmp::Ordering;
     ///
     /// // Store even number before odd ones and sort as usual within same parity group.
@@ -202,7 +202,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```should_fail
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// unsafe { skiplist.sort_by(|a: &i64, b: &i64| b.cmp(a)) } // All good; skiplist empty.
@@ -226,7 +226,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// skiplist.extend(0..10);
@@ -244,7 +244,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// skiplist.extend(0..10);
@@ -260,7 +260,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// assert!(skiplist.is_empty());
@@ -278,7 +278,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     ///
@@ -300,7 +300,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// assert!(skiplist.front().is_none());
@@ -324,7 +324,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// assert!(skiplist.back().is_none());
@@ -349,7 +349,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// assert!(skiplist.get(0).is_none());
@@ -373,7 +373,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// skiplist.insert(1);
@@ -398,7 +398,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// skiplist.insert(1);
@@ -423,7 +423,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// skiplist.extend(0..10);
@@ -452,7 +452,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// skiplist.extend(0..10);
@@ -478,7 +478,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// for _ in 0..10 {
@@ -510,7 +510,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// skiplist.extend(0..10);
@@ -534,7 +534,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// skiplist.extend(0..10);
@@ -553,7 +553,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// skiplist.extend(0..5);
@@ -573,7 +573,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// skiplist.extend(0..10);
@@ -592,7 +592,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     ///
     /// let mut skiplist = OrderedSkipList::new();
     /// skiplist.extend(0..10);
@@ -614,7 +614,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     /// use std::ops::Bound::{Included, Unbounded};
     ///
     /// let mut skiplist = OrderedSkipList::new();
@@ -651,7 +651,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     /// use std::ops::Bound::{Included, Excluded, Unbounded};
     ///
     /// let mut skiplist = OrderedSkipList::new();
@@ -674,7 +674,7 @@ impl<T> OrderedSkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::OrderedSkipList;
+    /// use xskiplist::OrderedSkipList;
     /// use std::ops::Bound::{Included, Excluded, Unbounded};
     ///
     /// let mut skiplist = OrderedSkipList::new();

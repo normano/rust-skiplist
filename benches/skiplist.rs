@@ -1,6 +1,6 @@
 use criterion::{black_box, AxisScale, BenchmarkId, Criterion, PlotConfiguration};
 use rand::prelude::*;
-use skiplist::SkipList;
+use xskiplist::SkipList;
 
 const STEPS: [usize; 6] = [1, 10, 100, 1000, 10_000, 100_000];
 

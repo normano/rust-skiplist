@@ -67,7 +67,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap: SkipMap<i64, String> = SkipMap::new();
     /// ```
@@ -89,7 +89,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::with_capacity(100);
     /// skipmap.extend((0..100).map(|x| (x, x)));
@@ -110,7 +110,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     ///
@@ -141,7 +141,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// skipmap.extend((0..10).map(|x| (x, x)));
@@ -159,7 +159,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// skipmap.extend((0..10).map(|x| (x, x)));
@@ -175,7 +175,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// assert!(skipmap.is_empty());
@@ -194,7 +194,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// assert!(skipmap.front().is_none());
@@ -217,7 +217,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// assert!(skipmap.front().is_none());
@@ -237,7 +237,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// assert!(skipmap.back().is_none());
@@ -260,7 +260,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// assert!(skipmap.back().is_none());
@@ -280,7 +280,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// assert!(skipmap.get(&0).is_none());
@@ -303,7 +303,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// assert!(skipmap.get(&0).is_none());
@@ -332,7 +332,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// skipmap.insert(1, "Hello");
@@ -357,7 +357,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// skipmap.insert(1, "Hello");
@@ -382,7 +382,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// skipmap.extend((0..10).map(|x| (x, x)));
@@ -403,7 +403,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// skipmap.extend((0..10).map(|x| (x, x)));
@@ -434,7 +434,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// skipmap.extend((0..10).map(|x| (x, x)));
@@ -456,7 +456,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// skipmap.extend((0..10).map(|x| (x, x)));
@@ -475,7 +475,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// skipmap.extend((0..10).map(|x| (x, x)));
@@ -495,7 +495,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// skipmap.extend((0..10).map(|x| (x, x)));
@@ -513,7 +513,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// skipmap.extend((0..10).map(|x| (x, x)));
@@ -530,7 +530,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     ///
     /// let mut skipmap = SkipMap::new();
     /// skipmap.extend((0..10).map(|x| (x, x)));
@@ -551,7 +551,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     /// use std::ops::Bound::{Included, Unbounded};
     ///
     /// let mut skipmap = SkipMap::new();
@@ -596,7 +596,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     /// use std::ops::Bound::{Included, Excluded, Unbounded};
     ///
     /// let mut skipmap = SkipMap::new();
@@ -622,7 +622,7 @@ impl<K, V> SkipMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipMap;
+    /// use xskiplist::SkipMap;
     /// use std::ops::Bound::{Included, Excluded, Unbounded};
     ///
     /// let mut skipmap = SkipMap::new();

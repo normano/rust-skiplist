@@ -9,7 +9,7 @@
 //! It is very unlikely that this will need to be changed as the default should
 //! suffice, but if need be custom level generators can be implemented.
 
-use rand::prelude::*;
+use rand::{prelude::*, rng};
 
 // ////////////////////////////////////////////////////////////////////////////
 // Level Generator
@@ -59,7 +59,7 @@ impl GeometricalLevelGenerator {
             total,
             p,
             // unit_range: distributions::Range::new(0.0f64, 1.0),
-            rng: SmallRng::from_rng(thread_rng()).unwrap(),
+            rng: SmallRng::from_rng(&mut rng()),
         }
     }
 }

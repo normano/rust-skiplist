@@ -37,7 +37,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist: SkipList<i64> = SkipList::new();
     /// ```
@@ -59,7 +59,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::with_capacity(100);
     /// skiplist.extend(0..100);
@@ -80,7 +80,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// skiplist.extend(0..10);
@@ -98,7 +98,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// skiplist.extend(0..10);
@@ -114,7 +114,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// assert!(skiplist.is_empty());
@@ -137,7 +137,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     ///
@@ -162,7 +162,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// skiplist.push_front(1);
@@ -177,7 +177,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// skiplist.push_back(1);
@@ -194,7 +194,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// assert!(skiplist.front().is_none());
@@ -218,7 +218,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// assert!(skiplist.front().is_none());
@@ -242,7 +242,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// assert!(skiplist.back().is_none());
@@ -267,7 +267,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// assert!(skiplist.back().is_none());
@@ -292,7 +292,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// assert!(skiplist.get(0).is_none());
@@ -311,7 +311,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// assert!(skiplist.get_mut(0).is_none());
@@ -331,7 +331,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// skiplist.push_back(1);
@@ -356,7 +356,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// skiplist.push_back(1);
@@ -385,7 +385,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// skiplist.extend(0..10);
@@ -410,7 +410,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// skiplist.extend(0..10);
@@ -428,7 +428,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// skiplist.extend(0..10);
@@ -447,7 +447,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// skiplist.extend(0..10);
@@ -464,7 +464,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// skiplist.extend(0..10);
@@ -486,7 +486,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     /// use std::ops::Bound::{Included, Unbounded};
     ///
     /// let mut skiplist = SkipList::new();
@@ -511,7 +511,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     /// use std::ops::Bound::{Included, Unbounded};
     ///
     /// let mut skiplist = SkipList::new();
@@ -542,7 +542,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     /// use std::ops::Bound::{Included, Excluded, Unbounded};
     ///
     /// let mut skiplist = SkipList::new();
@@ -565,7 +565,7 @@ impl<T> SkipList<T> {
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     /// use std::ops::Bound::{Included, Excluded, Unbounded};
     ///
     /// let mut skiplist = SkipList::new();
@@ -606,7 +606,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// skiplist.extend(0..10);
@@ -622,7 +622,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use skiplist::SkipList;
+    /// use xskiplist::SkipList;
     ///
     /// let mut skiplist = SkipList::new();
     /// skiplist.push_back(0);
@@ -970,13 +970,13 @@ mod tests {
 
     #[test]
     fn insert_rand() {
-        use rand::distributions::Uniform;
+        use rand::distr::{Uniform};
         use rand::Rng;
-        let mut rng = rand::thread_rng();
+        let mut rng = rand::rng();
         let mut sl: SkipList<usize> = SkipList::new();
         let mut vec: Vec<usize> = Vec::new();
         for i in 0..100 {
-            let idx = rng.sample(Uniform::new_inclusive(0, i));
+            let idx = rng.sample(Uniform::new_inclusive(0, i).unwrap());
             sl.insert(i, idx);
             vec.insert(idx, i);
         }
@@ -997,13 +997,13 @@ mod tests {
 
     #[test]
     fn remove_rand() {
-        use rand::distributions::Uniform;
+        use rand::distr::Uniform;
         use rand::Rng;
-        let mut rng = rand::thread_rng();
+        let mut rng = rand::rng();
         let mut v: Vec<i32> = (0..1000).collect();
         let mut sl: SkipList<i32> = (0..1000).collect();
         for i in (0..1000).rev() {
-            let idx = rng.sample(Uniform::new_inclusive(0, i));
+            let idx = rng.sample(Uniform::new_inclusive(0, i).unwrap());
             assert_eq!(sl.remove(idx), v.remove(idx));
         }
     }
