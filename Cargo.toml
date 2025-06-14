@@ -7,7 +7,7 @@ keywords    = ["collection", "skiplist", "sorted"]
 
 documentation = "https://docs.rs/skiplist"
 homepage      = "https://www.jpellis.me/projects/rust-skiplist/"
-repository    = "https://www.github.com/normano/rust-skiplist/"
+repository    = "https://github.com/normano/rust-skiplist/"
 
 readme = "README.md"
 
